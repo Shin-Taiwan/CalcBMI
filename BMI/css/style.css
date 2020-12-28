@@ -1,0 +1,229 @@
+@charset "UTF-8";
+
+/*共通部分*/
+
+html{
+    font-size: 100%;
+}
+
+body{
+    margin: 0px;
+}
+/*header*/
+header{
+    width: 100vw;
+    height: 20vh;
+    background-color: #3b3938;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.logo{
+    margin-right: 100px;
+}
+.item{
+    letter-spacing: 1.5px;
+}
+.info{
+    color: #fcc800;
+    font-size: 15px;
+
+}
+.info input{  
+    background-color: #3b3938 ;
+    border-radius: 5px; 
+    font-size: 20px;
+    color: white;
+    border: 2px #fcc800 solid;
+}
+.calcResult{
+    width:125px;
+    height:125px;
+    font-size: 20px;
+    background-color: #fcc800;
+    border: 0px;
+    border-radius:50%;
+    margin-left: 100px;
+}
+
+.calcResult:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px gray;
+}
+
+.calcResult:active{
+    background-color: #fcac00;
+}
+
+.result{
+    display: flex;
+    height:125px;
+    font-size: 20px;
+    background-color: #3b3938;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.result .button{
+    width:125px;
+}
+
+.buttonBMI{
+    margin-bottom: 0px;
+    margin-top: 45px;
+}
+.BMI{
+    font-size: 10px;
+    margin-top: 0px
+}
+
+.button img{
+    display:block;
+    margin-bottom: 0px;
+    margin-left: 80%;
+    width: 15px;
+    height: 15px;
+    padding: 3px;
+}
+.buttonJudgment{
+    padding-top: 52.5px;
+    margin-left: 15px;
+}
+
+.buttongreen{
+    color: rgb(108, 241, 30);
+}
+.buttonblue{
+    color: rgb(0, 183, 255);
+}
+
+.buttonorange{
+    color: rgb(255, 174, 0);
+}
+
+.buttondarkorange{
+    color: rgb(255, 136, 0);
+}
+.buttonred{
+    color: rgb(255, 0, 0);
+}
+
+.framegreen{
+    border-radius:50%;
+    border: rgb(108, 241, 30) 5px solid;
+}
+.frameblue{
+    border-radius:50%;
+    border: rgb(0, 183, 255) 5px solid;
+}
+
+.frameorange{
+    border-radius:50%;
+    border: rgb(255, 174, 0) 5px solid;
+}
+
+.framedarkorange{
+    border-radius:50%;
+    border: rgb(255, 136, 0) 5px solid;
+}
+.framered{
+    border-radius:50%;
+    border: rgb(255, 0, 0) 5px solid;
+}
+
+.imggreen{
+    border-radius:50%;
+    background-color: rgb(108, 241, 30);
+}
+
+.imgblue{
+    border-radius:50%;
+    background-color: rgb(0, 183, 255);
+}
+
+.imgorange{
+    border-radius:50%;
+    background-color: rgb(255, 174, 0);
+}
+
+.imgdarkorange{
+    border-radius:50%;
+    background-color: rgb(255, 136, 0);
+}
+
+.imgred{
+    border-radius:50%;
+    background-color:  rgb(255, 0, 0);
+}
+/*content*/
+
+.content{
+    padding-top: 20px;
+    padding-bottom: 70px;
+    background-color: rgb(236, 234, 234);
+}
+.content p{
+    font-size: 25px;
+    text-align: center;
+}
+
+.record{
+    width: 700px;
+    margin: auto;
+}
+
+.record .item{
+    font-size: 20px; 
+    margin-top: 10px; 
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.record .green{
+    border-left: rgb(108, 241, 30) 5px solid;;
+}
+.record .blue{
+    border-left: rgb(0, 183, 255) 5px solid;
+}
+
+.record .orange{
+    border-left: rgb(255, 174, 0) 5px solid;
+}
+
+.record .darkorange{
+    border-left: rgb(255, 136, 0) 5px solid;
+}
+.record .red{
+    border-left: rgb(255, 0, 0) 5px solid;
+}
+.record .item div{
+    margin: 10px auto;
+}
+.tag{
+    font-size: 10px;
+    
+}
+
+/*footer*/
+footer{
+    margin: auto;
+    margin-bottom: 0px;
+    width: 100vw;
+    background-color: #fcc800;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+footer img{
+    filter: brightness(0%);
+    width: 50px;
+    height: auto;
+    display:block;
+    margin: auto;
+}
